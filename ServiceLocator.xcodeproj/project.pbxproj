@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE65B88C18DC668000F747E1 /* NLSampleServiceFour.m in Sources */ = {isa = PBXBuildFile; fileRef = EE65B88918DC668000F747E1 /* NLSampleServiceFour.m */; };
+		EE65B88D18DC668000F747E1 /* NLSampleServiceThree.m in Sources */ = {isa = PBXBuildFile; fileRef = EE65B88B18DC668000F747E1 /* NLSampleServiceThree.m */; };
+		EE65B89318DC6C8500F747E1 /* NLSampleServiceTwo.m in Sources */ = {isa = PBXBuildFile; fileRef = EE65B88218DC65A600F747E1 /* NLSampleServiceTwo.m */; };
+		EE780F0918DC00880094C380 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE780F0818DC00880094C380 /* Foundation.framework */; };
+		EE780F1718DC00890094C380 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE780F1618DC00890094C380 /* XCTest.framework */; };
+		EE780F1818DC00890094C380 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE780F0818DC00880094C380 /* Foundation.framework */; };
+		EE780F1D18DC00890094C380 /* libServiceLocator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE780F0518DC00880094C380 /* libServiceLocator.a */; };
+		EEF9AFB518DC01EB004C252F /* NLServiceLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9AFB418DC01EB004C252F /* NLServiceLocator.m */; };
+		EEF9AFB618DC01EB004C252F /* NLServiceLocator.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9AFB418DC01EB004C252F /* NLServiceLocator.m */; };
+		EEF9AFBF18DC02F1004C252F /* NLServiceLocatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9AFBE18DC02F1004C252F /* NLServiceLocatorTests.m */; };
+		EEF9AFC318DC031A004C252F /* NLSampleServiceOne.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF9AFC218DC031A004C252F /* NLSampleServiceOne.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE780F1B18DC00890094C380 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE780EFD18DC00880094C380 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE780F0418DC00880094C380;
+			remoteInfo = ServiceLocator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EE780F0318DC00880094C380 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EE65B86A18DC548300F747E1 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		EE65B86B18DC548300F747E1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		EE65B88218DC65A600F747E1 /* NLSampleServiceTwo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLSampleServiceTwo.m; path = SampleService/NLSampleServiceTwo.m; sourceTree = "<group>"; };
+		EE65B88718DC661C00F747E1 /* NLSampleServiceTwo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLSampleServiceTwo.h; path = SampleService/NLSampleServiceTwo.h; sourceTree = "<group>"; };
+		EE65B88818DC668000F747E1 /* NLSampleServiceFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLSampleServiceFour.h; path = SampleService/NLSampleServiceFour.h; sourceTree = "<group>"; };
+		EE65B88918DC668000F747E1 /* NLSampleServiceFour.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLSampleServiceFour.m; path = SampleService/NLSampleServiceFour.m; sourceTree = "<group>"; };
+		EE65B88A18DC668000F747E1 /* NLSampleServiceThree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLSampleServiceThree.h; path = SampleService/NLSampleServiceThree.h; sourceTree = "<group>"; };
+		EE65B88B18DC668000F747E1 /* NLSampleServiceThree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLSampleServiceThree.m; path = SampleService/NLSampleServiceThree.m; sourceTree = "<group>"; };
+		EE65B88E18DC68F500F747E1 /* NLFifthSampleService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLFifthSampleService.h; path = SampleService/Protocols/NLFifthSampleService.h; sourceTree = "<group>"; };
+		EE65B88F18DC68F500F747E1 /* NLFirstSampleService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLFirstSampleService.h; path = SampleService/Protocols/NLFirstSampleService.h; sourceTree = "<group>"; };
+		EE65B89018DC68F500F747E1 /* NLFourthSampleService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLFourthSampleService.h; path = SampleService/Protocols/NLFourthSampleService.h; sourceTree = "<group>"; };
+		EE65B89118DC68F500F747E1 /* NLSecondSampleService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLSecondSampleService.h; path = SampleService/Protocols/NLSecondSampleService.h; sourceTree = "<group>"; };
+		EE65B89218DC68F500F747E1 /* NLThirdSampleService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLThirdSampleService.h; path = SampleService/Protocols/NLThirdSampleService.h; sourceTree = "<group>"; };
+		EE65B89418DC754100F747E1 /* NLServiceLocator.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = NLServiceLocator.podspec; sourceTree = "<group>"; };
+		EE780F0518DC00880094C380 /* libServiceLocator.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libServiceLocator.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE780F0818DC00880094C380 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EE780F1518DC00890094C380 /* ServiceLocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ServiceLocatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE780F1618DC00890094C380 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EEF9AFB218DC01E1004C252F /* NLServiceLocator-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NLServiceLocator-Prefix.pch"; sourceTree = "<group>"; };
+		EEF9AFB318DC01EB004C252F /* NLServiceLocator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NLServiceLocator.h; sourceTree = "<group>"; };
+		EEF9AFB418DC01EB004C252F /* NLServiceLocator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLServiceLocator.m; sourceTree = "<group>"; };
+		EEF9AFB718DC0252004C252F /* NLServiceLocatorTests-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "NLServiceLocatorTests-Info.plist"; sourceTree = "<group>"; };
+		EEF9AFBE18DC02F1004C252F /* NLServiceLocatorTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NLServiceLocatorTests.m; sourceTree = "<group>"; };
+		EEF9AFC118DC031A004C252F /* NLSampleServiceOne.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NLSampleServiceOne.h; path = SampleService/NLSampleServiceOne.h; sourceTree = "<group>"; };
+		EEF9AFC218DC031A004C252F /* NLSampleServiceOne.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NLSampleServiceOne.m; path = SampleService/NLSampleServiceOne.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE780F0218DC00880094C380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE780F0918DC00880094C380 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE780F1218DC00880094C380 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE780F1718DC00890094C380 /* XCTest.framework in Frameworks */,
+				EE780F1D18DC00890094C380 /* libServiceLocator.a in Frameworks */,
+				EE780F1818DC00890094C380 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE65B87718DC643900F747E1 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EE65B88F18DC68F500F747E1 /* NLFirstSampleService.h */,
+				EE65B89118DC68F500F747E1 /* NLSecondSampleService.h */,
+				EE65B89218DC68F500F747E1 /* NLThirdSampleService.h */,
+				EE65B89018DC68F500F747E1 /* NLFourthSampleService.h */,
+				EE65B88E18DC68F500F747E1 /* NLFifthSampleService.h */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		EE780EFC18DC00880094C380 = {
+			isa = PBXGroup;
+			children = (
+				EE780F0A18DC00880094C380 /* ServiceLocator */,
+				EE780F1E18DC00890094C380 /* ServiceLocatorTests */,
+				EE780F0718DC00880094C380 /* Frameworks */,
+				EE780F0618DC00880094C380 /* Products */,
+				EE65B86A18DC548300F747E1 /* LICENSE */,
+				EE65B86B18DC548300F747E1 /* README.md */,
+				EE65B89418DC754100F747E1 /* NLServiceLocator.podspec */,
+			);
+			sourceTree = "<group>";
+		};
+		EE780F0618DC00880094C380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE780F0518DC00880094C380 /* libServiceLocator.a */,
+				EE780F1518DC00890094C380 /* ServiceLocatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE780F0718DC00880094C380 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE780F0818DC00880094C380 /* Foundation.framework */,
+				EE780F1618DC00890094C380 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EE780F0A18DC00880094C380 /* ServiceLocator */ = {
+			isa = PBXGroup;
+			children = (
+				EEF9AFB318DC01EB004C252F /* NLServiceLocator.h */,
+				EEF9AFB418DC01EB004C252F /* NLServiceLocator.m */,
+				EE780F0B18DC00880094C380 /* Supporting Files */,
+			);
+			path = ServiceLocator;
+			sourceTree = "<group>";
+		};
+		EE780F0B18DC00880094C380 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEF9AFB218DC01E1004C252F /* NLServiceLocator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE780F1E18DC00890094C380 /* ServiceLocatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				EEF9AFB918DC025F004C252F /* SampleService */,
+				EEF9AFBE18DC02F1004C252F /* NLServiceLocatorTests.m */,
+				EE780F1F18DC00890094C380 /* Supporting Files */,
+			);
+			path = ServiceLocatorTests;
+			sourceTree = "<group>";
+		};
+		EE780F1F18DC00890094C380 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEF9AFB718DC0252004C252F /* NLServiceLocatorTests-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEF9AFB918DC025F004C252F /* SampleService */ = {
+			isa = PBXGroup;
+			children = (
+				EE65B87718DC643900F747E1 /* Protocols */,
+				EEF9AFC118DC031A004C252F /* NLSampleServiceOne.h */,
+				EEF9AFC218DC031A004C252F /* NLSampleServiceOne.m */,
+				EE65B88718DC661C00F747E1 /* NLSampleServiceTwo.h */,
+				EE65B88218DC65A600F747E1 /* NLSampleServiceTwo.m */,
+				EE65B88A18DC668000F747E1 /* NLSampleServiceThree.h */,
+				EE65B88B18DC668000F747E1 /* NLSampleServiceThree.m */,
+				EE65B88818DC668000F747E1 /* NLSampleServiceFour.h */,
+				EE65B88918DC668000F747E1 /* NLSampleServiceFour.m */,
+			);
+			name = SampleService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE780F0418DC00880094C380 /* ServiceLocator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE780F2818DC00890094C380 /* Build configuration list for PBXNativeTarget "ServiceLocator" */;
+			buildPhases = (
+				EE780F0118DC00880094C380 /* Sources */,
+				EE780F0218DC00880094C380 /* Frameworks */,
+				EE780F0318DC00880094C380 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ServiceLocator;
+			productName = ServiceLocator;
+			productReference = EE780F0518DC00880094C380 /* libServiceLocator.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EE780F1418DC00880094C380 /* ServiceLocatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE780F2B18DC00890094C380 /* Build configuration list for PBXNativeTarget "ServiceLocatorTests" */;
+			buildPhases = (
+				EE780F1118DC00880094C380 /* Sources */,
+				EE780F1218DC00880094C380 /* Frameworks */,
+				EE780F1318DC00880094C380 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE780F1C18DC00890094C380 /* PBXTargetDependency */,
+			);
+			name = ServiceLocatorTests;
+			productName = ServiceLocatorTests;
+			productReference = EE780F1518DC00890094C380 /* ServiceLocatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE780EFD18DC00880094C380 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Nikita Leonov";
+			};
+			buildConfigurationList = EE780F0018DC00880094C380 /* Build configuration list for PBXProject "ServiceLocator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EE780EFC18DC00880094C380;
+			productRefGroup = EE780F0618DC00880094C380 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE780F0418DC00880094C380 /* ServiceLocator */,
+				EE780F1418DC00880094C380 /* ServiceLocatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE780F1318DC00880094C380 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE780F0118DC00880094C380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF9AFB518DC01EB004C252F /* NLServiceLocator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE780F1118DC00880094C380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE65B89318DC6C8500F747E1 /* NLSampleServiceTwo.m in Sources */,
+				EEF9AFBF18DC02F1004C252F /* NLServiceLocatorTests.m in Sources */,
+				EE65B88D18DC668000F747E1 /* NLSampleServiceThree.m in Sources */,
+				EE65B88C18DC668000F747E1 /* NLSampleServiceFour.m in Sources */,
+				EEF9AFB618DC01EB004C252F /* NLServiceLocator.m in Sources */,
+				EEF9AFC318DC031A004C252F /* NLSampleServiceOne.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE780F1C18DC00890094C380 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE780F0418DC00880094C380 /* ServiceLocator */;
+			targetProxy = EE780F1B18DC00890094C380 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EE780F2618DC00890094C380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EE780F2718DC00890094C380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE780F2918DC00890094C380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ServiceLocator.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServiceLocator/NLServiceLocator-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EE780F2A18DC00890094C380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/ServiceLocator.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServiceLocator/NLServiceLocator-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EE780F2C18DC00890094C380 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServiceLocator/NLServiceLocator-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ServiceLocatorTests/NLServiceLocatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EE780F2D18DC00890094C380 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ServiceLocator/NLServiceLocator-Prefix.pch";
+				INFOPLIST_FILE = "ServiceLocatorTests/NLServiceLocatorTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE780F0018DC00880094C380 /* Build configuration list for PBXProject "ServiceLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE780F2618DC00890094C380 /* Debug */,
+				EE780F2718DC00890094C380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE780F2818DC00890094C380 /* Build configuration list for PBXNativeTarget "ServiceLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE780F2918DC00890094C380 /* Debug */,
+				EE780F2A18DC00890094C380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE780F2B18DC00890094C380 /* Build configuration list for PBXNativeTarget "ServiceLocatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE780F2C18DC00890094C380 /* Debug */,
+				EE780F2D18DC00890094C380 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE780EFD18DC00880094C380 /* Project object */;
+}
