@@ -28,9 +28,12 @@
 
 #import <Foundation/Foundation.h>
 
+/**
+ Implementation of Service Locator design pattern that allows implicitly or explicitly register services with use of protocols and retrieve them later with use of the same protocols.
+ */
 @interface NLServiceLocator : NSObject
 
-/*
+/**
     @brief Implicit registration of service in service locator for each of the protocols that class conforms.
  
     @attention All the services that are already registered under protocols that currently registering class conforms will be overriden. To avoid collisions "explicit" registering could be used.
@@ -39,7 +42,7 @@
 */
 + (void)registerService:(id)service;
 
-/*
+/**
  @brief Explicit registration of service in service locator only for protocol provided as method parameter.
  
  @attention Service will not be registered if service do not conforms provided protocol.
@@ -51,7 +54,7 @@
 */
 + (void)registerService:(id)service forProtocol:(Protocol *)protocol;
 
-/*
+/**
  @brief Provides service by protocol that it conforms and used for registration implicitly or explicitly.
  
  @param protocol Protocol that will be used for location of service from registry.

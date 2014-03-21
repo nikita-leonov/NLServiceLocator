@@ -4,12 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "Implementation of Service Locator design pattern for Objective C. "
 
   s.description  = <<-DESC
-                   A longer description of NLServiceLocator in Markdown format.
-
-                   * Think: Why did you write this? What is the focus? What does it do?
-                   * CocoaPods will be using this to generate tags, and improve search results.
-                   * Try to keep it short, snappy and to the point.
-                   * Finally, don't worry about the indent, CocoaPods strips it!
+                    Implementation of Service Locator design pattern that allows implicitly or explicitly register services with use of protocols and retrieve them later with use of the same protocols.
                    DESC
 
   s.license      = 'MIT'
