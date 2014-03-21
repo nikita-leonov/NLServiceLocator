@@ -6,13 +6,13 @@ Implementation of Service Locator design pattern for Objective C.
 
 ## Usage
 Register your service for protocol(s) implicitly or explicitly:
-```
+```objc
 [NLServiceLocator registerService:myService];
 [NLServiceLocator registerService:myService forProtocol:@protocol(NLSampleService)];
 ```
 
 Retrieve services later when you need them by referencing protocol that it conforms and was used for implicit or explicit registration:
-```
+```objc
 id<NLSampleService> myService = [NLServiceLocator serviceForProtocol:@(NLSampleService)];
 ```
 
