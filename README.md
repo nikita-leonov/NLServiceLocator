@@ -13,7 +13,7 @@ Register your service for protocol(s) implicitly or explicitly:
 
 Retrieve services later when you need them by referencing protocol that it conforms and was used for implicit or explicit registration:
 ```objc
-id<NLSampleService> myService = [NLServiceLocator serviceForProtocol:@(NLSampleService)];
+id<NLSampleService> myService = [NLServiceLocator serviceForProtocol:@protocol(NLSampleService)];
 ```
 
 Done. Enjoy your nicely developed, loosely coupled architecture with an opportunity to replace service by its alternatives in a runtime. Just use it to make your code more managable, or simplify testing by providing mock services with couple of code lines. 
