@@ -63,28 +63,28 @@
 
 - (void)testExample
 {
-    id<NLFirstSampleService> locatedServiceOne = [NLServiceLocator serviceWithProtocol:@protocol(NLFirstSampleService)];
+    id<NLFirstSampleService> locatedServiceOne = [NLServiceLocator serviceForProtocol:@protocol(NLFirstSampleService)];
     XCTAssertNotNil(locatedServiceOne, @"Service for protocol NLFirstSampleService was not located properly.");
     [locatedServiceOne testOne];
 
 
-    id<NLSecondSampleService> locatedServiceTwo = [NLServiceLocator serviceWithProtocol:@protocol(NLSecondSampleService)];
+    id<NLSecondSampleService> locatedServiceTwo = [NLServiceLocator serviceForProtocol:@protocol(NLSecondSampleService)];
     XCTAssertNotNil(locatedServiceTwo, @"Service for protocol NLSecondSampleService was not located properly.");
     [locatedServiceTwo testTwo];
 
-    id<NLThirdSampleService> locatedServiceThree = [NLServiceLocator serviceWithProtocol:@protocol(NLThirdSampleService)];
+    id<NLThirdSampleService> locatedServiceThree = [NLServiceLocator serviceForProtocol:@protocol(NLThirdSampleService)];
     XCTAssertNotNil(locatedServiceThree, @"Service for protocol NLThirdSampleService was not located properly.");
     [locatedServiceThree testThree];
 
-    id<NLFourthSampleService> locatedServiceFourth = [NLServiceLocator serviceWithProtocol:@protocol(NLFourthSampleService)];
+    id<NLFourthSampleService> locatedServiceFourth = [NLServiceLocator serviceForProtocol:@protocol(NLFourthSampleService)];
     XCTAssertNotNil(locatedServiceFourth, @"Service for protocol NLFourthSampleService was not located properly.");
     [locatedServiceFourth testFour];
 
-    id<NLFifthSampleService> locatedServiceFifth = [NLServiceLocator serviceWithProtocol:@protocol(NLFifthSampleService)];
+    id<NLFifthSampleService> locatedServiceFifth = [NLServiceLocator serviceForProtocol:@protocol(NLFifthSampleService)];
     XCTAssertNotNil(locatedServiceFifth, @"Service for protocol NLFifthSampleService was not located properly.");
     [locatedServiceFifth testFive];
 
-    locatedServiceFifth = [NLServiceLocator serviceWithProtocol:@protocol(NLFirstSampleService)];
+    locatedServiceFifth = [NLServiceLocator serviceForProtocol:@protocol(NLFirstSampleService)];
     XCTAssertThrows([locatedServiceFifth testFive], @"Service for protocol NLFirstSampleService was overriden, while no calls of such nature was done in setUp.");
 }
 

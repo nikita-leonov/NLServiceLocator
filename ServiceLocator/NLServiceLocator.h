@@ -59,6 +59,6 @@
  
  @param protocol Protocol that will be used for location of service from registry.
  */
-+ (id)serviceWithProtocol:(Protocol *)protocol;
++ (id)serviceForProtocol:(Protocol *)protocol;
 
 @end

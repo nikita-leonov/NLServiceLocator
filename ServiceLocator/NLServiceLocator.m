@@ -77,7 +77,7 @@ static NSMutableDictionary *_servicesRegistry;
     _servicesRegistry[protocolName] = service;
 }
 
-+ (id)serviceWithProtocol:(Protocol *)protocol {
++ (id)serviceForProtocol:(Protocol *)protocol {
     id result;
     
     NSString *protocolName = [NSString stringWithUTF8String:protocol_getName(protocol)];
