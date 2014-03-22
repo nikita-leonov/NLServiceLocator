@@ -1,4 +1,4 @@
-Objective C Service Locator
+Service Locator for Objective C
 ===============
 
 ## Overview
