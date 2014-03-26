@@ -30,9 +30,9 @@
 #import <objc/runtime.h>
 
 static NSString * const kNLServiceLocatorWarningOverridenByOtherWithProtocol = @"ServiceLocator| Warning: %@ overriden by %@ registered for protocol %@";
-static NSString * const kNLServiceLocatorErrorNotRegisteredDoesNotConformAnyProtocol =  @"ServiceLocator| Error: Unable to register service %@ as it does conform to any protocol.";
-static NSString * const kNLServiceLocatorErrorNotRegisteredDoesNotConformProtocol = @"ServiceLocator| Error: Service %@ not resgitered as it does conform to protocol %@.";
-static NSString * const kNLServiceLocatorErrorServiceForProtocolNotRegistered = @"ServiceLocator| Error: Service for protocol %@ is  not registered.";
+static NSString * const kNLServiceLocatorErrorNotRegisteredDoesNotConformAnyProtocol =  @"ServiceLocator| Error: Unable to register service %@ as it does not conform to any protocol.";
+static NSString * const kNLServiceLocatorErrorNotRegisteredDoesNotConformProtocol = @"ServiceLocator| Error: Service %@ not resgitered as it does not conform to protocol %@.";
+static NSString * const kNLServiceLocatorErrorServiceForProtocolNotRegistered = @"ServiceLocator| Error: Service for protocol %@ is not registered.";
 
 static NSMutableDictionary *_servicesRegistry;
 
