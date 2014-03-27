@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "NLServiceLocator"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "Implementation of Service Locator design pattern for Objective C. "
 
   s.description  = <<-DESC
@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.author             = { "Nikita Leonov" => "nikita.leonov@gmail.com" }
   s.social_media_url = "http://twitter.com/leonovco"
 
-  s.source       = { :git => "https://github.com/nikita-leonov/NLServiceLocator.git", :tag => "1.0.0" }
+  s.source       = { :git => "https://github.com/nikita-leonov/NLServiceLocator.git", :tag => "1.0.1" }
 
   s.source_files  = 'ServiceLocator/*.{h,m}'
 
