@@ -35,6 +35,7 @@ static NSString * const kNLServiceLocatorErrorNotRegisteredDoesNotConformProtoco
 static NSString * const kNLServiceLocatorErrorServiceForProtocolNotRegistered = @"ServiceLocator| Error: Service for protocol %@ is  not registered.";
 
 static NSMutableDictionary *_servicesRegistry;
+static dispatch_once_t onceToken;
 
 @implementation NLServiceLocator
 
@@ -46,7 +47,6 @@ static NSMutableDictionary *_servicesRegistry;
 }
 
 + (void)registerService:(id)service {
-    static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
         _servicesRegistry = [[NSMutableDictionary alloc] init];
     });
@@ -68,6 +68,10 @@ static NSMutableDictionary *_servicesRegistry;
 }
 
 + (void)registerService:(id)service forProtocol:(Protocol *)protocol {
+    dispatch_once(&onceToken, ^{
+        _servicesRegistry = [[NSMutableDictionary alloc] init];
+    });
+
     NSString *protocolName = [NSString stringWithUTF8String:protocol_getName(protocol)];
     [NLServiceLocator checkOverrideByService:service byProtocolWithName:protocolName];
     if (![service conformsToProtocol:protocol]) {
