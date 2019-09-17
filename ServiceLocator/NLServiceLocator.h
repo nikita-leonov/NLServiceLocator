@@ -49,7 +49,7 @@
  
  @param service Service that will be registered in service locator.
 
- @param service Protocol that service conforms and will be used for registration.
+ @param protocol Protocol that service conforms and will be used for registration.
 
 */
 + (void)registerService:(id)service forProtocol:(Protocol *)protocol;
